@@ -4,16 +4,16 @@ public enum EstadoEnum {
 	VENDIDO("Vendido"),
 	COMPRADO("comprado");
 	
-	private String tipo;
+	private String estado;
 	
 
-	private EstadoEnum(String tipo) {
-		this.tipo = tipo;
+	private EstadoEnum(String estado) {
+		this.estado = estado;
 	}
 
 
-	public String getTipo() {
-		return tipo;
+	public String getEstado() {
+		return estado;
 	}
 
 }
